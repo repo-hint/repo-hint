@@ -76,9 +76,9 @@ program
 		console.log('');
 		console.log('  Examples:');
 		console.log();
-		console.log('    $ repohint server [options] start');
-		console.log('    $ repohint server stop');
-		console.log('    $ repohint server restart');
+		console.log('    $ repo-hint server [options] start');
+		console.log('    $ repo-hint server stop');
+		console.log('    $ repo-hint server restart');
 		console.log();
 	});
 

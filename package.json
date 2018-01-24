@@ -1,14 +1,14 @@
 {
   "name": "repo-hint",
-  "version": "1.0.0",
-  "author": "tsengkasing <tsengkasing@gmail.com>",
+  "version": "0.1.1",
+  "author": "baixingopensource <baixing.opensource@gmail.com>",
   "description": "A light weight tool to help maintain Pull Request and Issue",
   "bin": {
     "repo-hint": "./bin/repo-hint.js"
   },
   "main": "./lib/cli.js",
   "scripts": {
-    "lint": "npx eslint ."
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
