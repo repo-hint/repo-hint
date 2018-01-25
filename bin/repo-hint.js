@@ -16,7 +16,7 @@ const path = require('path');
 const APP_NAME = 'repo-hint';
 
 program
-	.version('1.0.0')
+	.version('0.1.1')
 	.command('init')
 	.description('Initialize configuration')
 	.action(function () {
@@ -118,6 +118,7 @@ program
 		let {ghprbPullId, sha1, ghprbPullAuthorLogin, ghprbPullTitle, ghprbPullLongDescription} = process.env;
 		if (args.length > 0) {
 			[ghprbPullId, sha1, ghprbPullAuthorLogin, ghprbPullTitle, ghprbPullLongDescription, ...files] = args;
+			if (files && files.length <= 0) files = null;
 		}
 
 		// TODO: for debug
